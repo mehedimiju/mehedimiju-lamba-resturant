@@ -1,0 +1,210 @@
+
+/* =====header part===== */
+@media(max-width:992px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .nav-link {
+        display: inline-block;
+    }
+}
+@media(max-width:321px){
+    .bannar_content h1{
+        font-size: 30px;
+    }
+    .bannar_content img {
+        width: 130px;
+        margin-bottom: 15px;
+    }
+    .left_btn{
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+    .right_btn{
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+}
+@media(min-width:320px) and (max-width:576px){
+    .bannar_content h1{
+        font-size: 35px;
+    }
+    .bannar_content img {
+        width: 150px;
+        margin-bottom: 15px;
+    }
+    .left_btn{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .right_btn{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+@media(min-width:576px) and (max-width:768px){
+    .bannar_content h1{
+        font-size: 40px;
+    }
+    .bannar_content img {
+        width: 150px;
+        margin-bottom: 15px;
+    }
+    .left_btn{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .right_btn{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+@media(min-width:768px) and (max-width:992px){
+    .bannar_content h1{
+        font-size: 47px;
+    }
+    .bannar_content img {
+        margin-bottom: 15px;
+    }
+    .left_btn{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .right_btn{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+@media(min-width:992px) and (max-width:1200px){
+    .bannar_content h1{
+        font-size: 70px;
+    }
+}
+@media(max-width:576px){
+    .hero{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+@media(max-width:330px){
+    .bannar_content h1{
+        font-size: 30px;
+    }
+}
+/* =====HEADER PART===== */
+@media(max-width:1199px){
+    .reservation_img img {
+        width: 100%;
+    }
+    p {
+        margin-bottom: 5px;
+    }
+    .mb-4 {
+        margin-bottom: 0.8rem!important;
+    }
+}
+@media(max-width:991px){
+
+    .column-heading h1 {
+        font-size: 34px;
+    }
+    .column-heading img {
+        width: 220px;
+    }
+    p {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+}
+@media(max-width:767px){
+    section {
+        padding: 40px 0;
+    }
+    .about-p{
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    .about-img {
+        width: 30%;
+    }
+    .dish {
+        display: none;
+    }
+    .reservation_img img {
+        display: none;
+    }
+    .in-reviews p {
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
+    h1 {
+        font-size: 26px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    .column-heading h1 {
+        font-size: 26px;
+    }
+    .ingt h1 {
+        margin-bottom: 5px;
+    }
+    .mb-4 {
+        margin-bottom: 0.5rem!important;
+    }
+    .lower_column {
+        margin-top: 20px;
+    }
+    footer {
+        background-color: #191919;
+        padding: 20px 0;
+    }
+    .navbar {
+        padding-bottom: 0px;
+    }
+    .bannar_content {
+        padding: 20px;
+    }
+    .single_food_items {
+        padding: 0 30px;
+    }
+}
+@media(max-width:575px){
+    .column-heading h1 {
+        font-size: 24px;
+    }
+    .column-heading img {
+        width: 180px;
+        margin-bottom: 8px;
+    }
+    .left_btn {
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+    .ingt h1 {
+        margin-bottom: 10px;
+    }
+    .right_btn {
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+    .lower_column {
+        margin-top: 15px;
+    }
+    p {
+        font-size: 13px;
+    }
+    element.style {
+    }
+    form input {
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:320px){
+
+}

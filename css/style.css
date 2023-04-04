@@ -1,0 +1,367 @@
+/* ====GLOBAL CSS==== */
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    padding: 100px 0;
+}
+/* =====TYPHOGRAPHY===== */
+h1{
+    font-size: 36px;
+    font-family: yesevaone;
+    line-height: auto;
+    color: #cc9900;
+    margin-bottom: 15px;
+}
+
+h3{
+    font-size: 21px;
+    font-family: yesevaone;
+    line-height: 24px;
+    color: #cc9900;
+    margin-bottom: 15px;
+    font-weight: 600;  
+}
+p{
+    font-size: 15px;
+    font-family: lato;
+    line-height: 24px;
+    color: #4c4c4c;
+    margin-bottom: 15px;
+}
+a{
+    font-size: 18px;
+    line-height: auto;
+    font-family: lato;
+}
+/* ====================
+    MAIN CSS
+====================== */
+/* =====HEADER===== */
+header{
+    background-image: url('../images/bannar.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+}
+.logo{
+    max-width: 100px;
+}
+.navbar{
+    padding: 0;
+    padding-bottom: 40px;
+}
+.nav-link{
+    color: #ffffff !important;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Gentium Book Basic;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    position: relative;
+    transition: .4s all ease-in-out;
+}
+.nav-link:hover{
+    color: #c9a131 !important;
+}
+
+.navbar-toggler{
+    font-size: 25px !important;
+    padding: 0;
+    color: #fff;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.hero{
+
+}
+.bannar_content{
+    padding: 81px;
+}
+.bannar_content img{
+    width: 200px;
+    margin-bottom: 30px;
+}
+.bannar_content h1{
+    font-weight:600;
+    font-size: 87px;
+    color: #fff;
+}
+.left_btn{
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 30px;
+    margin: 0 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.left_btn::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #201912;
+    z-index: -1;
+    opacity: .6;
+    transition: .5s all ease-in-out;
+}
+.left_btn:hover::after{
+    background-color: #c9c087;
+}
+.right_btn{
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 30px;
+    margin: 0 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.right_btn:hover{
+    color: #fff;
+}
+.right_btn::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #c9c087;
+    z-index: -1;
+    opacity: .5;
+    transition: .5s all ease-in-out;
+}
+.right_btn:hover::after{
+    background-color: #201912;
+}
+.left_btn:hover::after{
+    color: #fff;
+}
+.left_btn:hover{
+    color: #fff;
+}
+/* ======ABOUT SECTION==== */
+.about{
+    padding-bottom: 50px;
+}
+.column-heading{
+    
+}
+.column-heading h1{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.column-heading img{
+
+}
+.dish{}
+.about-p{}
+.about-img{}
+/* ======INGREDIENTS SECTION===== */
+.ingredients{
+    background-image: url('../images/ingredients_bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.in-reviews{
+    padding: 50px;
+    position: relative;
+    z-index: 1;
+}
+.in-reviews::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #040404;
+    opacity: .67;
+    z-index: -1;
+}
+.ingt h1{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.ingt img{
+    width: 220px;
+}
+.in-reviews p{
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+/* =====FOOD ITEM SECTION===== */
+.food_item{
+    background-image: url('../images/menu_bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.single_food_items{
+
+}
+.food_item_title{
+
+}
+.single_food_item{
+    margin-top: 15px;
+}
+.single_food_item{
+    margin-top: 15px;
+}
+.single_food_item img{
+   width: 220px;
+}
+.food_item_title h1{
+   margin-bottom: 5px;
+   font-weight: 500;
+}
+.single_food_item p{
+    margin-bottom: 10px;
+}
+.single_food_item h3{
+    border-bottom: 1px solid #cc9900;
+     padding-bottom: 5px;
+}
+.single_food_item span{
+
+}
+.lower_column{
+    margin-top: 50px;
+}
+.special_item{
+    border: 1px solid #cc9900;
+    padding: 5px;
+    margin-top: 25px;
+    position: relative;
+}
+.special_item::after{
+    position: absolute;
+    content: 'Special';
+    right: -1px;
+    top: -24px;
+    background-color: #cd9f28;
+    color: #fff;
+    padding: 2px 5px;
+}
+/* =====REVEIWS AREA=== */
+.reveiws_area{
+    background-image: url('../images/reviews_bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.single_reveiws span{
+    font-size: 12px;
+}
+
+/* =====RESERVATION AREA==== */
+.reservations_area{
+    background-image: url('../images/reservation-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.reservation_img img{}
+form{
+    margin-top: 30px;
+}
+form h3{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+form label{
+    font-size: 14px;
+    font-weight: 600;
+    color: #c9a131;
+}
+form input{
+    width: 100%;
+    background-color: #f8f9f9;
+    border: none;
+    border-top: 1px solid #c9a131;
+    border-bottom: 1px solid #c9a131;
+    border-left: 1px solid #c9a131;
+    padding: 4px 10px;
+    outline: none;
+    margin-bottom: 20px;
+}
+form input::placeholder{
+    color: #7c7c7c;
+    font-size: 16px;
+}
+form select{
+    width: 100%;
+    background-color: #f8f9f9;
+    border: none;
+    border-top: 1px solid #c9a131;
+    border-bottom: 1px solid #c9a131;
+    border-left: 1px solid #c9a131;
+    padding: 4px 10px;
+    outline: none;
+    margin-bottom: 20px;
+}
+form select option{
+    color: #7c7c7c;
+    font-size: 16px;
+}
+.reservations_area button{
+    padding: 3px 30px;
+    border: none;
+    background-color: #c9a131;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .5s all ease-in-out;
+}
+.reservations_area button:hover{
+    background-color: #b08c2f;
+}
+/* =====FOOTER PART===== */
+footer{
+    background-color: #191919;
+    padding: 50px 0;
+}
+.single-part{
+    background-color: #191919;
+}
+.single-part h3{
+    color: #fff;
+}
+.single-part img{
+    width: 180px;
+}
+.single-part p{
+    color: #fff;
+    margin-bottom: 5px;
+}
+.single-part ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.single-part ul li{
+    margin-right: 10px;
+}
+.single-part ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.single-part ul li a:hover i{
+    transform: scale(1.3);
+}
+.single-part ul li a i{
+    transition: .4s all ease-in-out;
+}
